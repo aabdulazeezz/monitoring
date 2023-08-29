@@ -54,9 +54,9 @@ After=network-online.target
 User=alertmanager
 Group=alertmanager
 Type=simple
-WorkingDirectory=/etc/alertmanager \
+WorkingDirectory=/etc/alertmanager/
 ExecStart=/usr/local/bin/alertmanager \
-    --config.file /etc/alertmanager/alertmanager.yml \
+    --config.file=/etc/alertmanager/alertmanager.yml
 
 [Install]
 WantedBy=multi-user.target
