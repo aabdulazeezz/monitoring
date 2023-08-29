@@ -1,7 +1,7 @@
 # How to install Alert manager
 ## 1. Step we need to create user
 ~~~
-sudo useradd --no-create-home --shell /bin/false alermanager
+sudo useradd --no-create-home --shell /bin/false alertmanager
 ~~~
 ## 2. Create directory for file config
 ~~~
