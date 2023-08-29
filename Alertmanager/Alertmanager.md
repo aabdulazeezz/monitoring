@@ -41,7 +41,7 @@ sudo chown -R alertmanager:alertmanager /etc/alertmanager/
 ~~~
 ## 5. Now we need to create a service alerrtmanager
 ~~~
-sudo vim /etc/systemd/system/alermanager.service
+sudo vim /etc/systemd/system/alertmanager.service
 ~~~
 ## And add config for the service
 ~~~
