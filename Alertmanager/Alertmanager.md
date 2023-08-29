@@ -25,7 +25,7 @@ sudo mv amtool /usr/local/bin/
 ~~~
 ## Add permission to user for folder
 ~~~
-sudo chown alertmanager:alermanager /usr/local/bin/
+sudo chown alertmanager:alertmanager /usr/local/bin/
 ~~~
 ## Make sure that we have right's to amtools 
 ~~~
