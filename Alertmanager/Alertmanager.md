@@ -5,7 +5,7 @@ sudo useradd --no-create-home --shell /bin/false alermanager
 ~~~
 ## 2. Create directory for file config
 ~~~
-sudo mkdir /etc/alermanager
+sudo mkdir /etc/alertmanager
 ~~~
 ## 3. Dowload Alermanager for oficial web site
 ~~~
