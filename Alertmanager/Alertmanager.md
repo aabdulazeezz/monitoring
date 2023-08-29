@@ -18,7 +18,7 @@ tar -xvf <file.tar>
 ## To see what whas downloded use "ls" command
 ## Move bineries to "/user/local/bin"
 ~~~
-sudo mv alermanager /usr/local/bin/ 
+sudo mv alertmanager /usr/local/bin/ 
 ~~~
 ~~~
 sudo mv amtool /usr/local/bin/
