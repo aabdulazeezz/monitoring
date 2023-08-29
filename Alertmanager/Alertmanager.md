@@ -29,7 +29,7 @@ sudo chown alertmanager:alermanager /usr/local/bin/
 ~~~
 ## Make sure that we have right's to amtools 
 ~~~
-sudo chown alertmanager:alermanager /usr/local/bin/amtool
+sudo chown alertmanager:alertmanager /usr/local/bin/amtool
 ~~~
 ## And finally we need to move last file 
 ~~~
