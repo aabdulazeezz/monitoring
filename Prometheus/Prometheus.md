@@ -75,3 +75,11 @@ ExecStart=/usr/local/bin/prometheus \
 [Install]
 WantedBy=multi-user.target
 ~~~
+## 9. And now we need to start service that's we created 
+~~~
+sudo systemctl start prometheus
+~~~
+## And check that's it's working 
+~~~
+sudo systemctl status prometheus
+~~~
