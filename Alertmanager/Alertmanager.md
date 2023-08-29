@@ -51,12 +51,12 @@ Wants=network-online.target
 After=network-online.target
 
 [Service]
-User=alermanager
+User=alertmanager
 Group=alertmanager
 Type=simple
-WorkingDirectory=/etc/alermanager \
-ExecStart=/usr/local/bin/alermanager \
-    --config.file /etc/alermanager/alermanager.yml \
+WorkingDirectory=/etc/alertmanager \
+ExecStart=/usr/local/bin/alertmanager \
+    --config.file /etc/alermanager/alertmanager.yml \
 
 [Install]
 WantedBy=multi-user.target
