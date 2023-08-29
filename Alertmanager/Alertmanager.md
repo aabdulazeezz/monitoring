@@ -56,7 +56,7 @@ Group=alertmanager
 Type=simple
 WorkingDirectory=/etc/alertmanager \
 ExecStart=/usr/local/bin/alertmanager \
-    --config.file /etc/alermanager/alertmanager.yml \
+    --config.file /etc/alertmanager/alertmanager.yml \
 
 [Install]
 WantedBy=multi-user.target
