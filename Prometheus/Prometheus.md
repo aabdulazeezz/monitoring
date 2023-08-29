@@ -25,3 +25,18 @@ https://prometheus.io/download/
 ~~~
 wget https://github.com/prometheus/prometheus/releases/download/v2.46.0/prometheus-2.46.0.linux-amd64.tar.gz
 ~~~
+## 5. Unarhive files
+~~~
+tar -xvf <file.tar>
+~~~
+## 6. Now we go to the unarchive folder and move nessesery files to folder
+~~~
+sudo mv console* /etc/prometheus/
+~~~
+~~~
+sudo mv prometheus.yml /etc/prometheus/
+~~~
+## And give an permission to owner
+~~~
+sudo chown -R prometheus:prometheus /etc/prometheus/
+~~~
