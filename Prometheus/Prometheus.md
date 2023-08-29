@@ -83,3 +83,7 @@ sudo systemctl start prometheus
 ~~~
 sudo systemctl status prometheus
 ~~~
+## After we check that's all rinning add to aoutostart 
+~~~
+sudo systemctl enable promrtheus
+~~~
