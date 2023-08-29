@@ -37,7 +37,7 @@ sudo mv alertmanager.yml /etc/alertmanager
 ~~~
 ## Give an permission for the folder
 ~~~
-sudo chwon -R alertmanager:alertmanager /etc/alertmanager/
+sudo chown -R alertmanager:alertmanager /etc/alertmanager/
 ~~~
 ## 5. Now we need to create a service alerrtmanager
 ~~~
